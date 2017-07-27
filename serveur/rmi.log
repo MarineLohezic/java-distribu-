@@ -1,0 +1,6 @@
+ [client : 192.168.99.1] [fichier : fichiers/5.txt]
+ [client : 192.168.99.1] [fichier : fichiers/3.txt]
+ [client : 192.168.99.1] [fichier : fichiers/2.txt]
+ [client : 192.168.99.1] [fichier : fichiers/1.txt]
+ [client : 192.168.99.1] [fichier : fichiers/3.txt]
+ [client : 192.168.99.1] [fichier : fichiers/5.txt]
