@@ -1,5 +1,5 @@
 //----------
-// Marine Lohezic & Helene Levry 
+// Marine Lohezic
 //20/03/2017
 //----------
 
@@ -20,12 +20,12 @@ public class Serveur_Anagram implements Anagramme {
    
    
    
-   //constructeur du Serveur par défault
+   //constructeur du Serveur par dÃ©fault
    public Serveur_Anagram()  {
    }
    
    
-   //Descriptions des methodes utilisées par le Client 
+   //Descriptions des methodes utilisÃ©es par le Client 
    public int countAnagram(String data) throws RemoteException {
       try {
       
@@ -58,14 +58,14 @@ public class Serveur_Anagram implements Anagramme {
    public static void main (String args[]) {
       
       try {
-         // Créer un objet instance de la classe ServeurHello
+         // CrÃ©er un objet instance de la classe ServeurHello
          Serveur_Anagram obj = new Serveur_Anagram();
          
          // Exporter l'objet pour lui permettre de recevoir des appels externes sur le port 1234 par exemple
          Anagramme Anag = (Anagramme)UnicastRemoteObject.exportObject(obj, 1234);
          
-         // Lier le stub de l'objet accessible à distance au registry
-         // le port par défaut utilisé par le processus rmiregistery est le port 1099
+         // Lier le stub de l'objet accessible Ã  distance au registry
+         // le port par dÃ©faut utilisÃ© par le processus rmiregistery est le port 1099
          Registry registry = LocateRegistry.getRegistry();
          registry.bind("monObjetDistant", Anag);
          
