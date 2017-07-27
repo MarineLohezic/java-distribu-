@@ -1,5 +1,5 @@
 //----------
-// Marine Lohezic & Helene Levry 
+// Marine Lohezic
 //20/03/2017
 //----------
 
